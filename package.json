@@ -1,6 +1,6 @@
 {
   "name": "gulp-drinkbar-webpack",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": {
     "name": "Fumio Furukawa"
   },
@@ -27,10 +27,11 @@
   ],
   "dependencies": {
     "babel-loader": "^6.2.4",
+    "gulp-drinkbar": "^1.0.0",
     "webpack": "^2.1.0-beta.18"
   },
   "devDependencies": {
-    "babel-cli": "^6.10.1",
+    "babel-cli": "^6.11.4",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "mocha": "^2.5.3"
