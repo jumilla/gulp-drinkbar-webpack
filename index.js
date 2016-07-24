@@ -98,5 +98,6 @@ function webpackStream() {
 }
 
 webpackStream.babelLoader = require('babel-loader');
+webpackStream.jsonLoader = require('json-loader');
 
 module.exports = webpackStream;

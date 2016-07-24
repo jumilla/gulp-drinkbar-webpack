@@ -84,6 +84,7 @@ function webpackStream(options = {}) {
 
 
 webpackStream.babelLoader = require('babel-loader')
+webpackStream.jsonLoader = require('json-loader')
 
 
 

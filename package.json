@@ -1,6 +1,6 @@
 {
   "name": "gulp-drinkbar-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Fumio Furukawa"
   },
@@ -28,6 +28,7 @@
   "dependencies": {
     "babel-loader": "^6.2.4",
     "gulp-drinkbar": "^1.0.0",
+    "json-loader": "^0.5.4",
     "webpack": "^2.1.0-beta.18"
   },
   "devDependencies": {
@@ -42,7 +43,9 @@
     "test": "mocha --compilers js:babel-core/register"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "src"
   ],
-  "main": "index.js"
+  "main": "index.js",
+  "jsnext:main": "src/index.js"
 }
